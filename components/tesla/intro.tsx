@@ -4,7 +4,7 @@ const lato = Lato({weight: ["400"], subsets: ['latin'], display: "swap"});
 
 const Intro = () => {
   return (
-    <section className="box pt-8 lg:pt-24">
+    <section id="intro" className="box pt-8 lg:pt-24">
       <div>
         <h2 className="text-xl md:text-2xl text-slate-800" style={lato.style}>Tribute to the Genius of Electricity</h2>
         <article className="mt-4 text-slate-700" style={lato.style} >

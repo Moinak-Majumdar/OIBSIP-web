@@ -15,3 +15,11 @@
 4. **Login Authentication**: A straightforward OAuth (```GitHub``` & ```Google```) login application that protect a page from unauthorized access. Made with ```Next-Auth``` package.
  
 ### Also I already developed Level 3 task : <em>Pizza ordering website</em> previously. you may check: <a href='https://lifoodie-dev.web.app/' target="_BLANK">here</a>
+
+## Screenshots
+
+<img src='./screenshots/Screenshot 1.png' alt='oasis web sc 1' width="100%">
+<img src='./screenshots/Screenshot 2.png' alt='oasis web sc 2' width="100%">
+<img src='./screenshots/Screenshot 3.png' alt='oasis web sc 3' width="100%">
+<img src='./screenshots/Screenshot 4.png' alt='oasis web sc 4' width="100%">
+<img src='./screenshots/Screenshot 5.png' alt='oasis web sc 5' width="100%">
