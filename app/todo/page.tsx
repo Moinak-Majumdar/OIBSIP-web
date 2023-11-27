@@ -36,6 +36,8 @@ const Todo = () => {
 
     const [todoList, setTodoList] = useState<TodoItem[]>([]);
 
+    const bgWidth = typeof window !== 'undefined' ? window.screen.width : 1920;
+
     useEffect(() => {
         const list = getStorage()
         setTodoList(list);
@@ -137,7 +139,7 @@ const Todo = () => {
                 </div>
             </section >
             <div className="-z-10 opacity-80 md:opacity-50 fixed bottom-0 lg:-bottom-48 right-0">
-                <Image src={bg} alt="background" width={window.screen.width} loading="eager" priority={true} />
+                <Image src={bg} alt="background" width={bgWidth} loading="eager" priority={true} />
             </div>
         </main>
     )
